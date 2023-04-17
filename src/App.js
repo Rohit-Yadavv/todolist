@@ -15,7 +15,7 @@ function App() {
   }
 
   const listofItem = () => {
-    inputValue ? setItems([...Items, inputValue]) :alert("BetiChod Kuch Likh")
+    inputValue ? setItems([...Items, inputValue]) :alert("Write Something")
 
     // setItems((oldItems) => {
     //   console.log(oldItems)
