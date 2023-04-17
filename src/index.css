@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  background-color: #6983aa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+.center {
+  background-color: #f4f4f4;
+  height: 70vh;
+  width: 25vw;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+h1 {
+  color: white;
+  background: transparent;
+  background-color: #8566aa;
+}
+input {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 50%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+}
+.addButton {
+  height: 55px;
+  width: 50px;
+  border-radius: 50% !important;
+  margin-left: 10px !important;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.132);
+  color: rgb(255, 255, 255) !important;
+  background-color: #20bf6b !important;
+}
+
+.addButton:hover {
+  color: #20bf6b !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.deleteButton{
+  height: 40px;
+  min-width: 40px !important;
+  border-radius: 50% !important;
+  background-color: #8566aa!important;
+  border-color: transparent;
+  margin:5px 20px !important;
+  font-size: 8px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.258);
+  color: rgb(255, 255, 255) !important;
+}
+
+.deleteButton:hover{
+  color: red !important;
+  background-color: transparent !important;
+}
+ol {
+  margin-top: 30px;
+}
+ol li {
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  color: #8566aa ;
+  text-transform: capitalize;
+}
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.todo_style .fa-times {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 0px 15px 0px 35px;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.todo_style .fa-times:hover .list_style {
+  color: crimson;
+}
